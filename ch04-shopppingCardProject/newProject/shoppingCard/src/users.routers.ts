@@ -8,6 +8,8 @@ userRouter.use((req, res, next) => {
   //console.log('ahihi') //do return tren nene kh in ra ahihi
 })
 userRouter.use((req, res, next) => {
+  console.log('1')
+
   console.log('Time2 ', Date.now())
   next()
 })
